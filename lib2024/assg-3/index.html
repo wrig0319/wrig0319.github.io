@@ -11,15 +11,15 @@
 			<form>
 				<div>
 					<label for="FirstName">First Name</label>
-					<input type="text" name="FirstName" id="FirstName"placeholder="Enter your First Name here">
+					<input type="text" name="FirstName" id="FirstName"placeholder="Enter your First Name here" required>
 				</div>
 				<div id="ln-container" class="form-elm">
 					<label for="LastName">Last Name</label>
-					<input type="text" name="LastName" id="LastName" placeholder="Enter your Last Name here">
+					<input type="text" name="LastName" id="LastName" placeholder="Enter your Last Name here" required>
 				</div>
 				<div id="email-container" class="form-elm">
 					<label for-"email">Email</label>
-					<input type="email" name="email" id="email" placeholder="example@gmail.com">
+					<input type="email" name="email" id="email" placeholder="example@gmail.com" required>
 				</div>
 				<div>
 					<label for="pass">Password</label>
@@ -27,15 +27,58 @@
 				</div>
 				<div>
 					<label for="summary">Introduction:</label>
-					<textarea name="summary" id="summary" placeholder="Please Introduce yourself here"></textarea>
+					<textarea name="summary" id="summary" placeholder="Please Introduce Yourself Here"></textarea>
 				</div>
 				<div>
 					<label for="dte">Date of Birth</label>
-					<input type="date" name="dte" value="dte"><br>
+					<input type="date" name="dte" value="dte" required><br>
 				</div>
 				<div>
-					
+					<label for="tel">Mobile Phone #</label>
+					<input type="tel" name="tel"><br>
 				</div>
+				<div id="radio-container" class="form-elm">
+					<p>Gender:</p>
+					<label for="female">
+						<input type="radio" name="gender-form" id="female" value="female">
+						Female
+					</label>
+					<label for="male">
+						<input type="radio" name="gender-form" id="male" value="male">
+						Male
+					</label>
+				</div><br>
+				<div>
+					<label for="address">Address:
+						<input type="address" required>
+					</label>
+				</div>
+				<div>
+					<label for="City">City:</label>
+					<input type="text" name="City" id="City" required>
+				</div>
+				<div id="province-drop-container" class="form-elm">
+					<label for="province">Province:</label>
+					<select name="province" id="province"> 
+						<optgroup label="province">
+							<option value="newfoundland">Newfoundland</option>
+							<option value="princeedwardisland">Prince Edward Island</option>
+							<option value="novascotia" selected>Nova Scotia</option>
+							<option value="newbrunswick" selected>New Brunswick</option>
+							<option value="quebec" selected>Québec</option>
+							<option value="ontario" selected>Ontario</option>
+							<option value="manitoba" selected>Manitoba</option>
+							<option value="saskatchewan" selected>Saskatchewan</option>
+						</optgroup>
+						<optgroup label="territories">
+							<option value="yukon" selected>Yukon</option>
+							<option value="nunavut" selected>Nunavut</option>
+							<option value="northwestterritories" selected>Northwest Territories</option>
+						</optgroup>
+					</select>
+				</div><br>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
 			</form>
 		</section>
 	</div>
