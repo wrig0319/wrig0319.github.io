@@ -49,8 +49,31 @@
 					</label>
 				</div><br>
 				<div>
-					<label for="address">Address:
-						<input type="address" required>
+				<div id="country-drop-container" class="form-elm">
+					<label for="country">Country:</label>
+					<select name="country" id="country"> 
+						<optgroup label="country">
+							<option value="afghanistan" selected>Afghanistan</option>	<option value="australia" selected>Australia</option>
+							<option value="belize" selected>Belize</option>
+							<option value="canada">Canada</option>
+							<option value="china" selected>China</option>
+							<option value="dominicanrepublic" selected>Dominican Republic</option>
+							<option value="egypt" selected>Egypt</option>
+							<option value="germany" selected>Germany</option>
+							<option value="greece" selected>Greece</option>
+							<option value="" selected></option>
+							<option value="" selected></option>
+							<option value="" selected></option>
+							<option value="" selected></option>
+							<option value="" selected></option>
+							<option value="" selected></option>
+							<option value="" selected></option>
+							<option value="other" selected>Other...</option>
+						</optgroup>
+					</select>
+				</div>
+				<label for="address">Address:
+					<input type="address" required>
 					</label>
 				</div>
 				<div>
@@ -77,23 +100,12 @@
 						</optgroup>
 					</select>
 				</div><br>
-				<div id="country-drop-container" class="form-elm">
-					<label for="country">Country:</label>
-					<select name="country" id="country"> 
-						<optgroup label="country">
-							<option value="canada">Canada</option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-						</optgroup>
-					</select>
+				</div>
+				<label for="postalcode">Postal Code:
+					<input type="Postal" required>
+					</label>
 				</div><br>
+				<br>
 				<button type="submit">Submit</button>
 				<button type="reset">Reset</button>
 			</form>
