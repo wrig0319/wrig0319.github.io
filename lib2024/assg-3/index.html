@@ -53,7 +53,7 @@
 					<label for="country">Country:</label>
 					<select name="country" id="country"> 
 						<optgroup label="country">
-							<option value="afghanistan" selected>Afghanistan</option>	<option value="australia" selected>Australia</option>
+							<option value="afghanistan" selected>Afghanistan</option><option value="australia" selected>Australia</option>
 							<option value="belize" selected>Belize</option>
 							<option value="canada">Canada</option>
 							<option value="china" selected>China</option>
@@ -63,22 +63,26 @@
 							<option value="germany" selected>Germany</option>
 							<option value="greece" selected>Greece</option>
 							<option value="hungary" selected>Hungary</option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
-							<option value="" selected></option>
+							<option value="india" selected>India</option>
+							<option value="japan" selected>Japan</option>
+							<option value="kenya" selected>Kenya</option>
+							<option value="libya" selected>Libya</option>
+							<option value="malaysia" selected>Malaysia</option>
+							<option value="norway" selected>Norway</option>
+ 							<option value="philippines" selected>Philippines</option>
+ 							<option value="russia" selected>Russia</option>
+ 							<option value="spain" selected>Spain</option>
 							<option value="other" selected>Other...</option>
 						</optgroup>
 					</select>
 				</div>
 				<label for="address">Address:
-					<input type="address" required>
+					<input type="address" placeholder="Address" required>
 					</label>
 				</div>
 				<div>
 					<label for="City">City:</label>
-					<input type="text" name="City" id="City" required>
+					<input type="text" name="City" id="City" placeholder="Ottawa" required>
 				</div>
 				<div id="province-drop-container" class="form-elm">
 					<label for="province">Province:</label>
@@ -102,10 +106,56 @@
 				</div><br>
 				</div>
 				<label for="postalcode">Postal Code:
-					<input type="Postal" required>
+					<input type="Postal" placeholder=" Ex: K1A 0B1" required>
 					</label>
 				</div><br>
 				<br>
+				<div id="places-container" class="form-elm">
+					<h3>Hobbies/Interests:</h3>
+					<input type="checkbox" name="hobbies" id="acting" value="acting">
+                    <span style="width:50px;display:inline-block;"> Acting</span>
+                    <input type="checkbox" name="hobbies" id="baking" value="baking">
+                    <span style="width:50px;display:inline-block;"> Baking</span>
+                    <input type="checkbox" name="hobbies" id="comppro" value="comppro">
+                    <span style="width:90px;display:inline-block;">Computer Programming</span>
+                    <input type="checkbox" name="hobbies" id="crosspuz" value="crosspuz">
+                    <span style="width:50px;display:inline-block;">Cross Puzzles</span>
+                    <input type="checkbox" name="hobbies" id="dance" value="dance">
+                    <span style="width:50px;display:inline-block;">Dance</span>
+                    <input type="checkbox" name="hobbies" id="gaming" value="gaming">
+                    <span style="width:50px;display:inline-block;">Gaming</span>
+                    <input type="checkbox" name="hobbies" id="jewelmaking" value="jewelmaking">
+                    <span style="width:60px;display:inline-block;">Jewelry Making</span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+                    <input type="checkbox" name="hobbies" id="" value="">
+                    <span style="width:100px;display:inline-block;"> </span>
+				</div><br>
+				<div id="website" class="form-elm">
+					<a href="https://www.w3schools.com/">Need more help?</a>
+				</div><br>
 				<button type="submit">Submit</button>
 				<button type="reset">Reset</button>
 			</form>
