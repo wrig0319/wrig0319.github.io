@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Simple Style Schema</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		h1,h2 {
+			color: green;
+			text-align: center; 
+		}
+
+		p {
+			color:gold; 
+			font-size: 28px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container" class="container">
+		<header class="site-header">
+			<img src="img/bee_logo.png" height="100" width="100" class="logo" alt="Bee logo">
+			<h1>Save the bees!</h1>
+
+			<nav>
+				<ul>
+					<li>
+						<a href="contact-us.html">Contact Us</a>
+					</li>
+					<li>
+						<a href="about-us.html">About Us</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main id="main" class="main">
+			<section style="font-style: italic;" class="content">
+				<h2 class="sub-head" style="font-style: initial;">Some cool facts about Bees!</h2>
+				<p >
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sem tempor, rutrum est eget, auctor mi. Maecenas pharetra euismod commodo. Duis lacinia semper mi non interdum. Cras accumsan laoreet libero sit amet malesuada. Integer rhoncus quam id nulla facilisis, a pharetra sem sagittis. Sed sit amet efficitur velit, eu volutpat velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus in blandit ante. Proin rutrum volutpat sem at tempor. Sed porta volutpat ornare. Etiam eget sodales velit, vitae imperdiet mauris. Vestibulum vestibulum orci nec nulla molestie molestie. Cras non dapibus lacus. Integer consequat lectus eget pharetra facilisis. Morbi dapibus consequat sodales.
+				</p>
+		</main>
+
+		<footer>
+			<div itemscope itemtype="http://schema.org/Person">
+				<span itemprop="name">Alyssa Wright</span>
+				<div itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+					<span itemprop="streeAddress">65448 Woodroffe Ave.</span><br>
+					<span itemprop="addressLocality">Ottawa</span>
+					<span itemprop="addressRegion">Ontario</span>
+					<span itemprop="addressCountry">Canada</span>
+					<span itemprop="PostalCode">K0G 1V1</span>
+				</div>
+			</div>
+			<p>Copyright &copy; 2019</p>
+		</footer>
+	</div>
+</body>
+</html>

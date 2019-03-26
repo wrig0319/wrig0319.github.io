@@ -1,0 +1,19 @@
+/*CSS document is used to add external styles*/
+
+body{
+	background-image: url();
+}
+header nav li a {
+	color: rgb(153,101,121);
+}
+p {
+	color: blue;
+}
+#container {
+	background-color:rgba(127,140,141, 0.5);
+}
+
+.sub-head {
+	text-decoration: underline;
+	font-weight: 100;
+}

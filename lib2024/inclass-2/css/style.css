@@ -1,0 +1,23 @@
+/*CSS document is used to add external styles*/
+
+@charset "utf-8";
+body{
+	background-image: url("../img/honeycomb.png");
+}
+
+header nav li a {
+	color: rgb(153,101,121);
+}
+
+#container {
+	background-color:rgba(127,140,141, 0);
+}
+
+.sub-head {
+	text-decoration: underline;
+	font-weight: 100;
+	padding: 10px;
+	margin: 20px;
+	background-color: rgba(153,101,121,1);
+	border: 2px solid blue;
+}
