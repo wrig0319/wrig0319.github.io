@@ -7,7 +7,22 @@
 		table, th, td {
 			border: 1px solid black;
 			border-collapse: collapse;
+      text-align: left;
 		}
+
+    th{
+      font-weight: normal;
+    }
+
+    body{
+      width: 100%;
+      height: 100%;
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 16px;
+    }
 	</style>
 </head>
 <body>
@@ -15,12 +30,13 @@
 		<header>
 			<h1>Home Page</h1>
 			<p><strong>Target Screen:</strong> Desktop</p>
-			<p><strong>Image Link:</strong><img src="img/bee_logo.png" height="100" width="100" class="logo" alt="Bee logo"></p>
+			<p><strong>Image Link:</strong><a href="https://pixabay.com/illustrations/bee-logo-icon-insect-nature-2389834/"><img src="img/mockup-img.jpg" height="100" width="100" class="logo" alt="Bee logo"></a>
+      </p>
 		</header>
 	</div>
 	<div>
 		<p><strong>Dimensions:</strong></p>
-		<table>
+		<table style="width: 40%">
   			<tr>
    				<th><b>Element</b></th>
     			<th><b>Width</b></th> 
@@ -40,87 +56,73 @@
     			<th>Page</th>
   			</tr>
   			<tr>
-   				<th></th>
-    			<th></th> 
-    			<th></th>
-    			<th></th>
+   				<th>Main</th>
+    			<th>100%</th> 
+    			<th>330px</th>
+    			<th>Page</th>
   			</tr>
   			<tr>
-   				<th></th>
-    			<th></th> 
-    			<th></th>
-    			<th></th>
+   				<th>Article</th>
+    			<th>60%</th> 
+    			<th>Auto</th>
+    			<th>Main</th>
   			</tr>
   			<tr>
-   				<th></th>
-    			<th></th> 
-    			<th></th>
-    			<th></th>
+   				<th>Aside</th>
+    			<th>40%</th> 
+    			<th>Auto</th>
+    			<th>Main</th>
   			</tr>
   			<tr>
-   				<th></th>
-    			<th></th> 
-    			<th></th>
-    			<th></th>
-  			</tr>
-  			<tr>
-   				<th></th>
-    			<th></th> 
-    			<th></th>
-    			<th></th>
+   				<th>Footer</th>
+    			<th>100%</th> 
+    			<th>100px</th>
+    			<th>Page</th>
   			</tr>
 		</table>
 	</div>
   <div>
     <p><strong>Colours:</strong></p>
-    <table>
+    <table style="width: 40%">
         <tr>
           <th><b>Colour</b></th>
           <th><b>Used for</b></th> 
           <th><b>Used as</b></th>
           <th><b>Hex value</b></th>
+          <th><b>RGB value</b></th>
+          <th><b>Opacity</b></th>
         </tr>
         <tr>
-          <th>Page</th>
-          <th>100%</th> 
-          <th>Auto</th>
-          <th>N/A</th>
+          <th>Black</th>
+          <th>Text</th> 
+          <th>Primary</th>
+          <th>#123456</th>
+          <th>RGB(255,255,255)</th>
+          <th>1</th>
         </tr>
         <tr>
-          <th>Header</th>
-          <th>100%</th> 
-          <th>330px</th>
-          <th>Page</th>
+          <th>Blue</th>
+          <th>Text</th> 
+          <th>Accent</th>
+          <th>#123456</th>
+          <th>RGB(0,0,222)</th>
+          <th>1</th>
         </tr>
         <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
+          <th>BG blur</th>
+          <th>Background</th> 
+          <th>Primary</th>
+          <th>#123456</th>
+          <th>RGB(22,22,22)</th>
+          <th>0.5</th>
         </tr>
         <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
+          <th>BG white</th>
+          <th>Background</th> 
+          <th>Accent</th>
+          <th>#123456</th>
+          <th>RGB(0,0,222)</th>
+          <th>1</th>
         </tr>
     </table>
   </div>
@@ -134,55 +136,39 @@
           <th><b>Weight</b></th>
         </tr>
         <tr>
-          <th>Page</th>
-          <th>100%</th> 
+          <th>Robot</th>
+          <th>Body Text</th> 
+          <th>16px</th>
+          <th>300</th>
+        </tr>
+        <tr>
+          <th>Lato</th>
+          <th>Headers</th> 
+          <th>22px</th>
+          <th>Normal</th>
+        </tr>
+        <tr>
+          <th>Font Awesome</th>
+          <th>Icons</th> 
           <th>Auto</th>
-          <th>N/A</th>
-        </tr>
-        <tr>
-          <th>Header</th>
-          <th>100%</th> 
-          <th>330px</th>
-          <th>Page</th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th> 
-          <th></th>
-          <th></th>
+          <th>Normal</th>
         </tr>
     </table>
   </div>
-  <div>
-    URL:
+  <section>
+    <p>Urls:</p>
     <ul>
-      <li></li>
-
+      <li>Roboto : https://fonts.google.com/specimen/Roboto?selection.family=Roboto</li>
+      <li> Lato: https://fonts.google.com/specimen/Lato</li>
+      <li>Font Awesome: https://use.fontawesome.com/releases/v5.7.2/css/all.css</li>
     </ul>
-  </div>
+    <aside>
+    <p>Background image:</p>
+      <ul>
+        <li>URL: https://www.toptal.com/designers/subtlepatterns/circles-dark/ </li>
+        <li>Style:repeat</li>
+      </ul>
+    </aside>
+  </section>
 </body>
 </html>
