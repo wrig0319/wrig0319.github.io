@@ -1,0 +1,16 @@
+body {
+	background-color:lightgreen;
+}
+
+article {
+    padding: 100p;
+    width: 600px;
+    height: 600px;
+    text-align: justify;
+}
+
+aside {
+    padding-left: 500px;
+    margin: 300px;
+    text-align: justify;
+}

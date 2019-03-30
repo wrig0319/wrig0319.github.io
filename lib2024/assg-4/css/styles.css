@@ -1,7 +1,18 @@
-body{
+body {
 	background-color:lightgreen;
 }
 
-main {
-	background:url("circles-dark.png");
+#main-section {
+ 	text-align: justify;
+ 	border:1px;
+ 	width:200px;
+ 	width:500px;
+}
+
+aside {
+    position: absolute;
+  	right: 300px;
+  	width: 100px;
+  	height: 250px;
+  	border: 930px;
 }
