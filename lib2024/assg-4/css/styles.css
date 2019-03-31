@@ -4,15 +4,14 @@ body {
 
 #main-section {
  	text-align: justify;
- 	border:1px;
- 	width:200px;
- 	width:500px;
+ 	padding:5px;
+ 	height: 200px;
+ 	width: 600px;
 }
 
 aside {
     position: absolute;
   	right: 300px;
-  	width: 100px;
-  	height: 250px;
-  	border: 930px;
+  	width: 300px;
+  	height: 150px;
 }
