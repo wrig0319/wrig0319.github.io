@@ -1,12 +1,44 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+h1 {
+	font-size: 40px;
+	padding-left:150px;
+}
+
+#head {
+	background-color: #8AA37B;
+}
+
+.button {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px 0;
+	border: solid 5px transparent;
+	border-radius: 4px;
+	padding: 0.5em 2em;
+	color: #000000;
+	font-size:20px;
+	background-color: #87CEFA;
+}
+
 body {
-	background-color:lightgreen;
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-family:'Titillium Web', sans-serif;
+}
+
+#main {
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/grunge-wall/) repeat;
+
 }
 
 #main-section {
  	text-align: justify;
  	padding:5px;
- 	height: 200px;
- 	width: 600px;
+ 	height: 350px;
+ 	width: 870px;
 }
 
 aside {
@@ -14,4 +46,32 @@ aside {
   	right: 300px;
   	width: 300px;
   	height: 150px;
+  	font-family: "Quicksand", sans-serif;
+}
+
+#logo {
+	text-align:right;
+	padding:5px;
+	margin:10px;
+	top:-10px;
+	background-color: #8AA37B;
+}
+
+#asideblog {
+	width: 260px;
+	padding: 15px;
+	border: 5px;
+	margin: 0; 
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
