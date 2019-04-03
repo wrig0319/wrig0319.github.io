@@ -4,9 +4,14 @@
 	<title>Webpage</title>
 	<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<style type="text/css"></style>
+	<style type="text/css">
+		body  {
+			background-image: url('img/grunge_wall.png');
+		}
+	</style>
 </head>
 <body>
+	<div id="wholepage" class="blog">
 	<header id="head" class="blog">
 		<img align="left" src="img/logo.png" height="100" width="100" class="logo" alt="Cat logo"><br>
 		<h1> Title Of Page</h1>
@@ -19,11 +24,11 @@
 			</div>
 		</nav>
 	</header>
-	<main background="grunge_wall.png" id="main" class="blog">
-	<div>
+	<main id="main" class="blog">
+	<div><br>
 		<article id="main-section">
 			<h2>Main Content Title</h2>
-				<aside>
+				<aside align="right">
 					<div id="asideblog" class="blog">
 						<a href="https://pixabay.com/photos/tiger-animal-wildlife-resting-2530158/"><img src="img/tiger.jpg" alt="tiger" height="200" width="250"></a>
 					<h4>Title of the sidebar</h4>
@@ -34,8 +39,8 @@
 
 			<p>Donec id nisl sit amet sapien maximus hendrerit. Nunc id congue tellus, lacinia sollicitudin urna. Nullam maximus, elit at elementum placerat, purus eros dignissim leo, non sagittis ante lectus sit amet tellus. Sed tincidunt quis leo in dignissim. Cras at libero fermentum nisi consectetur rutrum et nec diam. Mauris eu odio lacinia, dapibus libero vitae, ullamcorper justo. Vivamus sed orci in orci efficitur vestibulum. Maecenas consequat posuere volutpat. Suspendisse euismod, magna id sollicitudin tristique, turpis turpis dignissim arcu, eget tempor arcu risus vel nibh. Phasellus volutpat malesuada nulla at convallis. In lacinia libero et neque facilisis, aliquam blandit diam dapibus. Donec dignissim eleifend fringilla. Donec lobortis pretium interdum.</p>
 		</article>
-		</main><br><br><br>
-	<div style="display:flex" id="second-content" class="blog">
+		</main>
+	<div id="second-content" class="blog">
 		<h3>Secondary Content Title</h3>
 		<div class="row">
  			<div class="column">
@@ -58,5 +63,6 @@
 			<a href="https://twitter.com/fakeblog"><img src="img/twitter.png" alt="twitterlogo" height="40" width="40"></a>
 			<a href="https://www.youtube.com/fakeblog"><img src="img/youtube.png" alt="youtubelogo" height="40" width="40"></a>
 	</footer>
+	</div>
 </body>
 </html>
