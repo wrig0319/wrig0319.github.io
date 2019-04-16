@@ -2,54 +2,62 @@
 <html>
 <head>
 	<title>Final assignment</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<style type="text/css">
+		body  {
+		background-image: url('img/dynamic-style.png');
+
+		}
 
 	</style>
 </head>
 <body>
-	<header class="site-header clearfix" id="site-header">
+	<header class="site-header" id="site-header">
 		<div class="logo">MY LOGO</div>
 		<nav class="main-nav-container desktop-nav">
-			<ul class="main-nav clearfix">
+			<ul class="main-nav">
 				<li>
-					<a href="home.html">Home</a>
+					<a class="text" href="home.html">Home</a>
 				</li>
 				<li>
-					<a href="about-us.html">About Us</a>
+					<a class="text" href="about-us.html">About Us</a>
 				<li>
-					<a href="schedule">Schedule</a>
+					<a class="text" href="schedule">Schedule</a>
 				</li>
 				<li>
-				<a href="portfolio.html">Portfolio</a>
+				<a class="text" href="portfolio.html">Portfolio</a>
 				</li>
 				<li>
-				<a href="contact.html">Contact</a>
+				<a class="text" href="contact.html">Contact</a>
 				</li>
 			</ul>
 		</nav>
 		<!-- desktop nav ends -->
 		</header>
 		<div>
-				<h1 class="page-title">ABOUT</h1>
-				<p>	Praesent eget lacus id augue viverra condimentum placerat ac leo. Suspendisse potenti. Suspendisse convallis dui et nisi laoreet, at semper ante malesuada. Donec at lectus vel neque volutpat feugiat in sit amet purus. Etiam blandit felis sit amet consequat posuere. Nunc dapibus enim orci, vel vulputate ex finibus sit amet. Nunc posuere, tortor eu lacinia sodales, quam turpis malesuada sem, ac rutrum nulla felis vitae felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra nunc ut blandit tristique. Aenean at neque sit amet ante blandit condimentum non a arcu. Nulla in ipsum quis turpis pulvinar scelerisque.</p>
+			<article>
+				<h1 class="page-title">ABOUT</h1><br>
+				<p>	Praesent eget lacus id augue viverra condimentum placerat ac leo. Suspendisse potenti. Suspendisse convallis dui et nisi laoreet, at semper ante malesuada. Donec at lectus vel neque volutpat feugiat in sit amet purus. Etiam blandit felis sit amet consequat posuere. Nunc dapibus enim orci, vel vulputate ex finibus sit amet. Nunc posuere, tortor eu lacinia sodales, quam turpis malesuada sem, ac rutrum nulla felis vitae felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra nunc ut blandit tristique. Aenean at neque sit amet ante blandit condimentum non a arcu. Nulla in ipsum quis turpis pulvinar scelerisque.</p><br>
 
 				<p>Nam et lacus at sem pulvinar consectetur. Morbi hendrerit porttitor lorem, ut aliquam tortor mollis ullamcorper. Etiam et nisl feugiat, imperdiet ipsum id, finibus libero. Vivamus sit amet leo vel dui placerat aliquam. Donec volutpat ante in tempus tempus. Nullam at sodales elit. Mauris blandit neque convallis scelerisque viverra. Ut elit nunc, consequat nec porta blandit, ultrices id nulla. Morbi posuere dui ut urna condimentum, at rutrum dolor cursus. Vivamus euismod egestas augue, at placerat felis tristique fermentum. Cras accumsan, quam non tincidunt fringilla, sapien neque iaculis augue, sed posuere lacus nulla vel turpis. Mauris gravida, turpis vel congue ullamcorper, quam sem commodo nunc, sit amet consectetur ante augue et mauris. Sed sodales sit amet velit ut iaculis. Aliquam facilisis tempor iaculis. Sed consectetur sagittis augue sit amet consequat.
 				</p>
-				<aside>
-						<img src="img/forest.jpg" width="250" height="250">
-				</aside>
+			</article>
+			<aside>
+				<img src="img/forest.jpg" width="450" height="350">
+			</aside>
+			
 		</div>
 		<div>
 			<h1>SCHEDULE</h1>
 			<table style="width:100%">
  				 <tr>
-   					<th>TIME</th>
-    				<th>MONDAY</th> 
-    				<th>TUESDAY</th>
-    				<th>WEDNESDAY</th>
-    				<th>THURSDAY</th>
-    				<th>FRIDAY</th>
+   					<th class="title">TIME</th>
+    				<th class="title">MONDAY</th> 
+    				<th class="title">TUESDAY</th>
+    				<th class="title">WEDNESDAY</th>
+    				<th class="title">THURSDAY</th>
+    				<th class="title">FRIDAY</th>
   				</tr>
   				<tr>
   					<td>09:00-11:00</td>
@@ -85,10 +93,82 @@
   				</tr>
 			</table>
 		</div>
-
+		<div>
+			<h1>EDIT PROFILE</h1>
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" required>
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email" required>
+				</div>
+				<div>
+					<label for="address">Address:</label>
+					<input type="text" name="address" id="address" required>
+				</div>
+				<div>
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city" required>
+				</div>
+				<div id="province-drop-container">
+					<label for="province">Province:</label>
+					<select name="province" id="province"> 
+						<optgroup label="province">
+							<option value="newfoundland">Newfoundland</option>
+							<option value="princeedwardisland">Prince Edward Island</option>
+							<option value="novascotia">Nova Scotia</option>
+							<option value="newbrunswick">New Brunswick</option>
+							<option value="quebec">Québec</option>
+							<option value="ontario" selected>Ontario</option>
+							<option value="manitoba">Manitoba</option>
+							<option value="saskatchewan">Saskatchewan</option>
+						</optgroup>
+						<optgroup label="territories">
+							<option value="yukon">Yukon</option>
+							<option value="nunavut">Nunavut</option>
+							<option value="northwestterritories">Northwest Territories</option>
+						</optgroup>
+					</select>
+				</div>
+				<div>
+					<label for="postal">Postal Code:</label>
+					<input type="text" name="postal" id="postal" required>
+				</div>
+				<div>
+					<button type="reset">Reset</button>
+				</div>		
+				<div>
+					<h1>PROFILE INFO</h1>
+					<i id="user" class="fas fa-user"></i>
+					<h4>John Doe</h4>
+					<p>johnDoe@algonquincollege.com</p>
+					<p>1385 Woodroffe Ave, Nepean,</p>
+					<p>ON, K2G 1V8</p>
+					<a href="johnDoe@algonquincollege.com"><i id="email-icon" class="far fa-envelope"></i></a>
+				</div>
+		</div>
 
 	<footer>		
-
+		<div>
+			<p>QUICK LINKS</p><br>
+			<p>SCHEDULE</p><br>
+			<p>ABOUT</p><br>
+			<p>PORTFOLIO</p><br>
+			<p>CONTACT</p><br>
+		</div>
+		<div id="follow">
+			<p>FOLLOW US</p>
+				<a href="https://www.facebook.com/fakeuser"><img src="img/facebook.png" alt="facebooklogo" height="40" width="40"></a>
+				<a href="https://twitter.com/fakeuser"><img src="img/twitter.png" alt="twitterlogo" height="40" width="40"></a>
+				<a href="https://www.youtube.com/fakeuser"><img src="img/youtube.png" alt="youtubelogo" height="40" width="40"></a>
+		</div>
+		<div id="foot-address">
+			<p>ADDRESS</p>
+				<p>1385 Woodroffe Ave,</p>
+				<p>Nepean,ON K2G 1V8</p>
+				<p>Canada</p>
+		</div>
 	</footer>
 </body>
 </html>
