@@ -1,9 +1,38 @@
 @charset "utf-8";
 
+* {
+	margin:0;
+	padding:0;
+}
+
 .main-nav {
-    border: 1px solid black;
+    border: 1px;
     border-top: 0;
     margin-left: 5px;
     padding: 3px;
     display: inline-block
+}
+.logo {
+	color:#3EA99F;
+	font-size: 40px;
+}
+
+nav {
+  	background-color: #3EA99F;
+ 	color: black;
+}
+
+li {
+	border-top: 0;
+	margin-left: 50px;
+	padding: 15px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	font-size:20px;
+}
+
+h1 {
+	color: #3EA99F
 }
