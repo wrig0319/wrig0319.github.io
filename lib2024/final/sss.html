@@ -1,9 +1,175 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head id="head" class="SSS">
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="">
+	<style type="text/css">
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+      text-align: left;
+		}
+
+    th{
+      font-weight: normal;
+      padding:5px;
+    }
+
+    body{
+      width: 100%;
+      height: 100%;
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 16px;
+    }
+	</style>
 </head>
 <body>
-
+	<div>
+		<header id="main-page" class="SSS">
+			<h1>Home Page</h1>
+			<p><strong>Target Screen:</strong> Desktop</p>
+			<p><strong>Image Link:</strong><a href="https://pixabay.com/photos/forest-glade-sun-rain-light-780258/"><img src="img/forest.jpg" height="100" width="100" class="img" alt="rainforest"></a>
+      </p>
+		</header>
+	</div>
+	<div id="dimensions" class="SSS">
+		<p><strong>Dimensions:</strong></p>
+		<table style="width: 40%">
+  			<tr>
+   				<th><b>Element</b></th>
+    			<th><b>Width</b></th> 
+    			<th><b>Height</b></th>
+    			<th><b>Parent</b></th>
+  			</tr>
+  			<tr>
+   				<th>Page</th>
+    			<th>100%</th> 
+    			<th>Auto</th>
+    			<th>N/A</th>
+  			</tr>
+  			<tr>
+   				<th>Header</th>
+    			<th>100%</th> 
+    			<th>330px</th>
+    			<th>Page</th>
+  			</tr>
+  			<tr>
+   				<th>Main</th>
+    			<th>100%</th> 
+    			<th>330px</th>
+    			<th>Page</th>
+  			</tr>
+  			<tr>
+   				<th>Article</th>
+    			<th>60%</th> 
+    			<th>Auto</th>
+    			<th>Main</th>
+  			</tr>
+  			<tr>
+   				<th>Aside</th>
+    			<th>5%</th> 
+    			<th>10%</th>
+    			<th>Main</th>
+  			</tr>
+  			<tr>
+   				<th>Footer</th>
+    			<th>100%</th> 
+    			<th>100px</th>
+    			<th>Page</th>
+  			</tr>
+		</table>
+	</div>
+  <div id="colours" class=SSS>
+    <p><strong>Colours:</strong></p>
+    <table style="width: 40%">
+        <tr>
+          <th><b>Colour</b></th>
+          <th><b>Used for</b></th> 
+          <th><b>Used as</b></th>
+          <th><b>Hex value</b></th>
+          <th><b>RGB value</b></th>
+          <th><b>Opacity</b></th>
+        </tr>
+        <tr>
+          <th>Black</th>
+          <th>Text</th> 
+          <th>Primary</th>
+          <th>#000000</th>
+          <th>RGB(0,0,0)</th>
+          <th>1</th>
+        </tr>
+        <tr>
+          <th>White</th>
+          <th>Text</th> 
+          <th>Accent</th>
+          <th>#FFFFFF</th>
+          <th>RGB(255,255,255)</th>
+          <th>1</th>
+        </tr>
+        <tr>
+          <th>Blue</th>
+          <th>Text</th> 
+          <th>Primary</th>
+          <th>#3EA99F</th>
+          <th>RGB(62,169,159)</th>
+          <th>1</th>
+        </tr>
+        <tr>
+          <th>BG white</th>
+          <th>Background</th> 
+          <th>Accent</th>
+          <th>#123456</th>
+          <th>RGB(0,0,222)</th>
+          <th>1</th>
+        </tr>
+    </table>
+  </div>
+  <div id="fonts" class="SSS">
+    <p><strong>Fonts:</strong></p>
+    <table style="width: 40%">
+        <tr>
+          <th><b>Name</b></th>
+          <th><b>Use</b></th> 
+          <th><b>Size</b></th>
+          <th><b>Weight</b></th>
+        </tr>
+        <tr>
+          <th>GoogleFonts</th>
+          <th>Logo</th> 
+          <th>60px</th>
+          <th>300</th>
+        </tr>
+        <tr>
+          <th>GoogleFonts</th>
+          <th>Body</th> 
+          <th>14px</th>
+          <th>Normal</th>
+        </tr>
+        <tr>
+          <th>Font Awesome</th>
+          <th>Icons</th> 
+          <th>Auto</th>
+          <th>Normal</th>
+        </tr>
+    </table>
+  </div>
+  <section id="url" class="SSS">
+    <p>Urls:</p>
+    <ul>
+      <li>GoogleFonts : <a href="https://fonts.google.com/specimen/Bubblegum+Sans?selection.family=Bubblegum+Sans">https://fonts.google.com/specimen/Bubblegum+Sans?selection.family=Bubblegum+Sans</a></li>
+      <li>GoogleFonts : <a href="https://fonts.google.com/specimen/Poppins?selection.family=Poppins">https://fonts.google.com/specimen/Poppins?selection.family=Poppins</a></li>
+      <li>Font Awesome: <a href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">https://use.fontawesome.com/releases/v5.7.2/css/all.css</a></li>
+    </ul>
+    <aside>
+    <p>Background image:</p>
+      <ul>
+        <li>URL: <a href="https://www.toptal.com/designers/subtlepatterns/dynamic-style-pattern/">https://www.toptal.com/designers/subtlepatterns/dynamic-style-pattern/</a> </li>
+        <li>Style:repeat</li>
+      </ul>
+    </aside>
+  </section>
 </body>
 </html>

@@ -5,6 +5,10 @@
 	padding:0;
 }
 
+body {
+	padding:0.5px;
+}
+
 header {
 	background-color: white;
 }
@@ -46,22 +50,27 @@ li {
 
 article {
 	float: left;
-	margin:10px;
-	padding-left: 0.5%;
-	padding-right: 55%;
+	width:60%;
+	height:auto;
 }
 
 aside {
-	float: right;
+	float:right;
+	padding:5%;
+	margin:10px;
 }
 
 table {
   border-collapse: collapse;
+  padding:10%;
 }
 
 table, th, td {
+  text-align: center;
   border: 1px solid black;
+  padding:10px;
 }
+
 
 .title {
 	color: #48D1CC;
@@ -72,10 +81,12 @@ h1, h4 {
 }
 
 #follow {
+	padding:2%;
 	text-align: center;
 }
 
 footer {
+	padding:2%;
 	background-color: grey; 
 	color:white;
 	font-size: 15px;
@@ -83,4 +94,22 @@ footer {
 
 #user {
 	font-size: 100px;
+}
+
+#schedule {
+	float:left;
+}r
+
+#make-profile {
+	align-content: left;
+	margin:10%;
+}
+
+#profile {
+	text-align: right;
+}
+
+#foot-address {
+	padding: 10px;
+	text-align: right;
 }

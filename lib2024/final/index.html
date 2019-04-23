@@ -3,8 +3,11 @@
 <head>
 	<title>Final assignment</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="scripts/script.js"></script>
 	<style type="text/css">
+
 		body  {
 		background-image: url('img/dynamic-style.png');
 
@@ -35,7 +38,7 @@
 		</nav>
 		<!-- desktop nav ends -->
 		</header>
-		<div>
+		<section>
 			<article>
 				<h1 class="page-title">ABOUT</h1><br>
 				<p>	Praesent eget lacus id augue viverra condimentum placerat ac leo. Suspendisse potenti. Suspendisse convallis dui et nisi laoreet, at semper ante malesuada. Donec at lectus vel neque volutpat feugiat in sit amet purus. Etiam blandit felis sit amet consequat posuere. Nunc dapibus enim orci, vel vulputate ex finibus sit amet. Nunc posuere, tortor eu lacinia sodales, quam turpis malesuada sem, ac rutrum nulla felis vitae felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra nunc ut blandit tristique. Aenean at neque sit amet ante blandit condimentum non a arcu. Nulla in ipsum quis turpis pulvinar scelerisque.</p><br>
@@ -44,13 +47,12 @@
 				</p>
 			</article>
 			<aside>
-				<img src="img/forest.jpg" width="450" height="350">
+				<img src="img/forest.jpg" width="400" height="300">
 			</aside>
-			
-		</div>
-		<div>
+		</section>
+		<section id="schedule" class="schedule"><br>
 			<h1>SCHEDULE</h1>
-			<table style="width:100%">
+			<table>
  				 <tr>
    					<th class="title">TIME</th>
     				<th class="title">MONDAY</th> 
@@ -92,9 +94,9 @@
   					<td>Internet Applications</td>
   				</tr>
 			</table>
-		</div>
-		<div>
-			<h1>EDIT PROFILE</h1>
+		</section><br>
+		<section id="make-profile" class="make-profile">
+			<h1 class="make-profile">EDIT PROFILE</h1>
 				<div>
 					<label for="name">Name:</label>
 					<input type="text" name="name" id="name" required>
@@ -115,19 +117,19 @@
 					<label for="province">Province:</label>
 					<select name="province" id="province"> 
 						<optgroup label="province">
-							<option value="newfoundland">Newfoundland</option>
-							<option value="princeedwardisland">Prince Edward Island</option>
-							<option value="novascotia">Nova Scotia</option>
-							<option value="newbrunswick">New Brunswick</option>
-							<option value="quebec">Québec</option>
-							<option value="ontario" selected>Ontario</option>
-							<option value="manitoba">Manitoba</option>
-							<option value="saskatchewan">Saskatchewan</option>
+							<option value="newfoundland">NL</option>
+							<option value="princeedwardisland">PE</option>
+							<option value="novascotia">NS</option>
+							<option value="newbrunswick">NB</option>
+							<option value="quebec">QC</option>
+							<option value="ontario" selected>ON</option>
+							<option value="manitoba">MB</option>
+							<option value="saskatchewan">SK</option>
 						</optgroup>
 						<optgroup label="territories">
-							<option value="yukon">Yukon</option>
-							<option value="nunavut">Nunavut</option>
-							<option value="northwestterritories">Northwest Territories</option>
+							<option value="yukon">YT</option>
+							<option value="nunavut">NU</option>
+							<option value="northwestterritories">NT</option>
 						</optgroup>
 					</select>
 				</div>
@@ -137,8 +139,9 @@
 				</div>
 				<div>
 					<button type="reset">Reset</button>
-				</div>		
-				<div>
+				</div>
+				<br>	
+				<div id="profile" class="profile">
 					<h1>PROFILE INFO</h1>
 					<i id="user" class="fas fa-user"></i>
 					<h4>John Doe</h4>
@@ -147,7 +150,7 @@
 					<p>ON, K2G 1V8</p>
 					<a href="johnDoe@algonquincollege.com"><i id="email-icon" class="far fa-envelope"></i></a>
 				</div>
-		</div>
+		</section>
 
 	<footer>		
 		<div>
