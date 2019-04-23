@@ -87,6 +87,7 @@ h1, h4 {
 
 footer {
 	padding:2%;
+	padding-bottom: 100px;
 	background-color: grey; 
 	color:white;
 	font-size: 15px;
@@ -102,14 +103,14 @@ footer {
 
 #make-profile {
 	align-content: left;
-	margin:10%;
+	padding-bottom: 100px;
 }
 
 #profile {
+	padding-right:100px;
 	text-align: right;
 }
 
 #foot-address {
-	padding: 10px;
 	text-align: right;
 }
